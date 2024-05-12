@@ -16,7 +16,11 @@ The files `db-<dataset>.lst` contain the lists of subject structure files. For t
 The files `queries-<dataset>.lst` contain the lists of query structures. The file `families-homstrad.lst` lists 398 reference protein structure alignment files.
 The scripts `commands-run-<dataset>.sh` provide commands for preprocessing structure files and running tools.
 The scripts `commands-test-<dataset>.sh` provide commands for evaluating alignments produced by each tool.
+The scripts `commands-test-<dataset>-rmsd.sh` provide commands for evaluating alignments by RMSD.
+The `commands-test-scope20840-fr.sh` script lists commands for SCOPe-based evaluation.
 The commands in the scripts are commented.
 The files `plot_TMscores_<dataset>.sh` are scripts to generate the main results figures.
+The scripts `plot_TMscores_<dataset>_rmsd.sh` generate figures depicting the results of alignment accuracy evaluation using RMSD.
+The `plot_TMscores_scope20840-fr.sh` displays the results obtained from the SCOPe-based evaluation.
 The file `PDB_clustered_gtalign_CLC.lst` contains complete-linkage clusters for the entire PDB (08/18/2023; first chains).
 
