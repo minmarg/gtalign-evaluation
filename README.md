@@ -33,3 +33,4 @@ The `TMscore_from_alignment.cpp` program is the TM-score (version 2022/02/27) pr
 
 The file `PDB_clustered_gtalign_CLC.lst` contains complete-linkage clusters for the entire PDB (08/18/2023; first chains).
 
+The `homstrad.tar.bz2` file is the HOMSTRAD dataset originally obtained from http://yanglab.nankai.edu.cn/mTM-align/benchmark.
